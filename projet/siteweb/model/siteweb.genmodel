@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/siteweb/src-gen" creationIcons="false" editDirectory="/siteweb.edit/src-gen"
+    editorDirectory="/siteweb.editor/src-gen" modelPluginID="siteweb" modelName="Siteweb"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>siteweb.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Siteweb" disposableProviderFactory="true" ecorePackage="siteweb.ecore#/">
+    <genClasses ecoreClass="siteweb.ecore#//Page">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Page/corps"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Page/entête"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Page/titre"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Entête">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Entête/titre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Entête/contenu"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Entête/hyperlien"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Corps">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Corps/blocs"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Section">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Section/blocs"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Bloc">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Bloc/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Bloc/actions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Bloc/contenu"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Titre">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Titre/niveau"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Paragraphe"/>
+    <genClasses ecoreClass="siteweb.ecore#//Action">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference siteweb.ecore#//Action/page"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Action/contenu"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//Site">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference siteweb.ecore#//Site/pages"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute siteweb.ecore#//Site/name"/>
+    </genClasses>
+    <genClasses ecoreClass="siteweb.ecore#//HyperLien"/>
+    <genClasses ecoreClass="siteweb.ecore#//Boutton"/>
+  </genPackages>
+</genmodel:GenModel>

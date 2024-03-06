@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedagomm:Faculté xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pedagomm="http://www.example.org/pedagomm" name="Faculté des Sciences &amp; Technologies">
+  <formations name="Formations en Informatique de Lille">
+    <mentions name="Master Info" responsables="//@personnes.0">
+      <parcours name="Génie Logiciel" responsables="//@personnes.0">
+        <semestres name="Semestre 1">
+          <ues personnes="//@personnes.0 //@personnes.1" name="ACT">
+            <feuilleContenus name="Description d'ACT" content="ACT c'est comme assister à son propre enterrement pendant 4 mois, sauf que personne n'est triste."/>
+          </ues>
+          <ues personnes="//@personnes.0 //@personnes.1" name="IDM">
+            <feuilleContenus name="Description d'IDM" content="IDM c'est l'art d'utiliser les pires outils pour faire le meilleur truc."/>
+          </ues>
+          <feuilleContenus name="Semestre 1" content="Le semestre 1 est le plus important des semestres"/>
+        </semestres>
+        <semestres name="Semestre 2">
+          <ues personnes="//@personnes.0 //@personnes.1" name="COMPIL">
+            <feuilleContenus name="Description d'UNE UE" content="L'UE de Compilation va d'abord vous faire faire du Python, et en deux semaines vous allez vous taper de l'Assembleur."/>
+          </ues>
+          <feuilleContenus name="Semestre 2" content="Le semestre 2 est le plus important des semestres"/>
+        </semestres>
+        <feuilleContenus name="Description de GL" content="Le parcours Génie Logiciel du Master Info, c'est le BEST parcours, et les autres sont moins biens (nuls)"/>
+      </parcours>
+      <parcours name="E-Services">
+        <semestres name="Semestre unique">
+          <ues name="TAC">
+            <feuilleContenus name="Description de TAC" content="Technologies Applications Connectées, ou quelque chose de ce style, en théorie c'est pour tout appareil connecté à internet, mais en pratique c'est juste pour faire une appli Android Studio."/>
+          </ues>
+        </semestres>
+        <feuilleContenus name="Description de Parcours2" content="Le parcours E-Services est destiné aux moins bons élèves que GL, mais c'est tabou."/>
+      </parcours>
+      <feuilleContenus name="Master Info: parcours" content="Le Master Informatique du FIL est probablement le meilleur Master de tout l'univers académique français"/>
+    </mentions>
+    <mentions name="Master MIAGE" responsables="//@personnes.0">
+      <parcours name="Parcours MIAGE">
+        <semestres name="Semestre 1">
+          <ues name="Une UE">
+            <feuilleContenus name="Description de UE" content="Une description."/>
+          </ues>
+          <feuilleContenus name="Description de Semestre" content="Semestre unique pour parcours quelconque."/>
+        </semestres>
+        <feuilleContenus name="Description de Parcours" content="Les MIAGE ils restent entre eux, rien à dire honnêtement"/>
+      </parcours>
+      <feuilleContenus name="MIAGE: Parcours" content="On va pas décrire trop ce parcours, mais il est sûrement pas mal non plus"/>
+    </mentions>
+    <feuilleContenus name="Description de FIL" content="La Formation en informatique de Lille est la formation la plus prestigieuse à travers la France."/>
+  </formations>
+  <formations name="Physique">
+    <mentions name="Licence de Physique-chimie">
+      <parcours name="Tronc commun">
+        <semestres name="Semestre unique">
+          <ues name="UE1">
+            <feuilleContenus name="Description de UE1" content="L'UE1 fait pleurer du sang à tout le monde"/>
+          </ues>
+          <ues name="UE2">
+            <feuilleContenus name="Description de UE2" content="L'UE2 est la seule UE que les étudiants apprécient cette année."/>
+          </ues>
+        </semestres>
+        <feuilleContenus name="Description de Tronc commun" content="En licence, tout le monde verra les mêmes trucs."/>
+      </parcours>
+      <feuilleContenus name="Description de Licence de Physique-chimie" content="La licence de Physique-Chimie est vouée à former de futurs salariés en laboratoires de drogues"/>
+    </mentions>
+    <feuilleContenus name="Description de Physique" content="La physique, c'est fantastique"/>
+  </formations>
+  <personnes xsi:type="pedagomm:Responsable" name="Patrick"/>
+  <personnes xsi:type="pedagomm:Intervenant" name="Patricia"/>
+  <personnes xsi:type="pedagomm:Intervenant" name="Michel"/>
+  <personnes xsi:type="pedagomm:Responsable" name="Maude"/>
+</pedagomm:Faculté>

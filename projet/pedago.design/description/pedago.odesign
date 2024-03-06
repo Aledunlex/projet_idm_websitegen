@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="pedago" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="FaculteContainer" domainClass="pedagomm::Faculté" enablePopupBars="true">
+      <metamodel href="http://www.example.org/pedagomm#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="FormationContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeFormationName']" semanticCandidatesExpression="aql:self.formations" domainClass="pedagomm::Formation">
+          <subContainerMappings name="MentionContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeMentionName']" semanticCandidatesExpression="aql:self.mentions" domainClass="pedagomm::Mention">
+            <subContainerMappings name="ParcoursContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeParcoursName']" semanticCandidatesExpression="aql:self.parcours" domainClass="pedagomm::Parcours">
+              <subContainerMappings name="SemestreContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeSemestreName']" semanticCandidatesExpression="aql:self.semestres" domainClass="pedagomm::Semestre">
+                <subContainerMappings name="UEContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeUEName']" semanticCandidatesExpression="aql:self.ues" domainClass="pedagomm::UE">
+                  <subContainerMappings name="FeuilleContenuContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeDescriptionContent']" semanticCandidatesExpression="aql:self.feuilleContenus" domainClass="pedagomm::FeuilleContenu">
+                    <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:content">
+                      <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                      <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                      <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                      <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                    </style>
+                  </subContainerMappings>
+                  <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelFormat>bold</labelFormat>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+                    <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+                  </style>
+                </subContainerMappings>
+                <subContainerMappings name="FeuilleContenuContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeDescriptionContent']" semanticCandidatesExpression="aql:self.feuilleContenus" domainClass="pedagomm::FeuilleContenu">
+                  <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:content">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                    <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  </style>
+                </subContainerMappings>
+                <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="14">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelFormat>bold</labelFormat>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                  <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                </style>
+              </subContainerMappings>
+              <subContainerMappings name="FeuilleContenuContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeDescriptionContent']" semanticCandidatesExpression="aql:self.feuilleContenus" domainClass="pedagomm::FeuilleContenu">
+                <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:content">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                </style>
+              </subContainerMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="16">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+              </style>
+            </subContainerMappings>
+            <subContainerMappings name="FeuilleContenuContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeDescriptionContent']" semanticCandidatesExpression="aql:self.feuilleContenus" domainClass="pedagomm::FeuilleContenu">
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="aql:self.content">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="18">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="FeuilleContenuContainer" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@toolSections.0/@ownedTools[name='changeDescriptionContent']" semanticCandidatesExpression="aql:self.feuilleContenus" domainClass="pedagomm::FeuilleContenu">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:content">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="20">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Tools">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouvelle Formation" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::Formation" referenceName="formations">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Formation' + container.formations->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouvelle Mention" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::Mention" referenceName="mentions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Mention' + container.mentions->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouveau Parcours" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::Parcours" referenceName="parcours">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Parcours' + container.parcours->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouveau Semestre" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::Semestre" referenceName="semestres">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Semestre' + container.semestres->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouvelle UE" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::UE" referenceName="ues">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'UE' + container.ues->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Nouvelle Description" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='FeuilleContenuContainer']" extraMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="pedagomm::FeuilleContenu" referenceName="feuilleContenus">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="aql:'Description par défaut de '+self.eContainer().name+' à éditer'"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Description de '+self.eContainer().name"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeFormationName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeMentionName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeParcoursName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeSemestreName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeUEName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="changeDescriptionContent">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="content" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="pedago.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

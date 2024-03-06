@@ -1,0 +1,33 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generateBouton.
+ */]
+[module generateAction('http://www.example.org/siteweb')]
+
+[**
+ * Abstract method to be defined for specific implementations of the Bouton type
+ */]
+[template public generateAction(action: Action)]
+[/template]
+
+[template public generateAction(action: Boutton) ? (action.page<>null)]
+<a href="[action.page.titre/].html" ><button class="btn btn-primary">[action.contenu/]</button></a>
+[/template]
+
+[template public generateAction(action: HyperLien) ? (action.page<>null)]
+<a href="[action.page.titre/].html" >[action.contenu/]</a>
+[/template]
+
+[**
+ * Supposes that a Boutton that won't redirect to a page will have a custom script to trigger instead
+ * User may try to define the behaviour in the customAction function's skeleton generated in the html
+*/]
+[template public generateAction(action: Boutton) ? (action.page=null)]
+<button style="btn btn-primary" onclick="customAction("Some arguments")">Custom action</button>
+<script>
+    function customAction(args){
+        [action.contenu/]
+    }
+
+</script>
+[/template]

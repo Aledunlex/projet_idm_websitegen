@@ -1,0 +1,46 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generateBloc.
+ */]
+[module generateBloc('http://www.example.org/siteweb')]
+[import pedago::tosite::generator::main::generateAction]
+
+[**
+ * Abstract method to be defined for specific implementations of the Bloc type
+ */]
+[template public generateBloc(bloc: Bloc)]
+[/template]
+
+[template public generateBloc(bloc: Titre)]
+<h[bloc.niveau/]>[bloc.contenu/]</h[bloc.niveau/]>
+[for (action : Action | bloc.actions)]
+[generateAction(action)/]
+[/for]
+[/template]
+
+[template public generateBloc(bloc: Section)]
+<div>
+	[bloc.contenu/]
+	[generateActionsIfAny(bloc)/]
+	[for (innerBloc:Bloc | bloc.blocs)]
+	[generateBloc(innerBloc)/]
+	[/for]
+</div>
+[/template]
+
+[template public generateActionsIfAny (bloc : Section) ? (bloc.actions->size() > 0)]
+<div> [comment Putting all actions of the Section in a div/]
+[for (action : Action | bloc.actions)]
+[generateAction(action)/]
+[/for]
+</div>
+[/template]
+
+[template public generateBloc(bloc: Paragraphe)]
+<p class="lead">
+	[bloc.contenu/]
+	[for (action : Action | bloc.actions)]
+	[generateAction(action)/]
+	[/for]
+</p>
+[/template]

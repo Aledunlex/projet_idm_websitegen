@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siteweb:Site xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:siteweb="http://www.example.org/siteweb" name="Site du FIL">
+  <pages titre="Portail">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Titre" contenu="Portail des formations du FIL."/>
+        <blocs xsi:type="siteweb:Paragraphe" contenu="responsables: Patrick"/>
+      </blocs>
+      <blocs xsi:type="siteweb:Section">
+        <actions xsi:type="siteweb:Boutton" contenu="Master Info" page="//@pages.1"/>
+        <actions xsi:type="siteweb:Boutton" contenu="Master MIAGE" page="//@pages.2"/>
+      </blocs>
+    </corps>
+    <entête titre="Portail du FIL" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="Master Info">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="La mention informatique du master sciences et technologies de l'université de Lille a pour objectif d'apporter aux étudiants des compétences de haut niveau, à la fois sur le plan théorique et pratique, dans le secteur des sciences de l'information et des technologies des communications."/>
+        <blocs xsi:type="siteweb:Paragraphe" contenu="responsables : Romain Rouvoy"/>
+      </blocs>
+      <blocs xsi:type="siteweb:Section">
+        <actions xsi:type="siteweb:Boutton" contenu="Génie Logiciel" page="//@pages.3"/>
+        <actions xsi:type="siteweb:Boutton" contenu="E-Service" page="//@pages.4"/>
+      </blocs>
+    </corps>
+    <entête titre="Master Info" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="Master MIAGE">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="La mention MIAGE du master du FIL est moins bien que la mention Informatique, mais c'est vous qui voyez."/>
+      </blocs>
+      <blocs xsi:type="siteweb:Section">
+        <actions xsi:type="siteweb:Boutton" contenu="Aller vers la meilleur option" page="//@pages.1"/>
+      </blocs>
+    </corps>
+    <entête titre="Master MIAGE" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="Génie Logiciel">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="Le parcours Génie Logiciel s’articule autour de la conception et du développement des logiciels agiles, c'est-à-dire des applications dont les fonctionnalités sont en parfaite adéquation avec les besoins des utilisateurs. Le parcours Génie Logiciel allie donc méthodes, concepts et technologies pour favoriser l’émergence d’applications innovantes sans jamais perdre de vue l’efficacité"/>
+      </blocs>
+      <blocs xsi:type="siteweb:Section" contenu="Liens vers les UE du master:">
+        <actions xsi:type="siteweb:Boutton" contenu="IDM" page="//@pages.5"/>
+        <actions xsi:type="siteweb:Boutton" contenu="ACT" page="//@pages.6"/>
+        <actions xsi:type="siteweb:Boutton" contenu="ARI" page="//@pages.7"/>
+        <actions xsi:type="siteweb:Boutton" contenu="ASE" page="//@pages.8"/>
+        <actions xsi:type="siteweb:Boutton" contenu="COA" page="//@pages.9"/>
+        <actions xsi:type="siteweb:Boutton" contenu="PJI" page="//@pages.10"/>
+        <actions xsi:type="siteweb:Boutton" contenu="TAC" page="//@pages.11"/>
+      </blocs>
+    </corps>
+    <entête titre="Génie logiciel" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="E-Service">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="Le parcours E-Services s’articule autour de la conception et du développement des services numériques, c’est-à-dire des services accessibles au travers des moyens de communication numérique - notamment l’Internet – mais également au travers de tous les équipements liés à l’économie digitale : smartphones, tablettes, interfaces multi-touch, interfaces vocales, etc."/>
+        <blocs xsi:type="siteweb:Section">
+          <actions xsi:type="siteweb:Boutton" contenu="Voir une meilleure option" page="//@pages.3"/>
+        </blocs>
+      </blocs>
+    </corps>
+    <entête titre="E-Service" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="IDM">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="L’objectif de cette UE est d’acquérir les bases de l’Ingénierie Des Modèles (IDM). Un modèle est une abstraction de la réalité, construit afin d’étudier de façon simplifiée cette réalité. On peut par exemple construire des modèles représentant un logiciel, une ville, un site web, ou tous ce que vous voulez."/>
+      </blocs>
+    </corps>
+    <entête titre="IDM" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="ACT">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="Le but de l'algorithmique peut être résumé en &quot; trouver un &quot;bon&quot; algorithme &quot; pour un problème donné."/>
+      </blocs>
+    </corps>
+    <entête titre="ACT" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="ISI">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="Analyser les aspects liés à la sécurité sur un système ou un programme ; Savoir employer les outils à disposition pour mitiger les risques de sécurité ; Etre familiarisé avec les problématiques de vie privée et de fuite d’informations."/>
+      </blocs>
+    </corps>
+    <entête titre="ISI" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="ASE">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="L’objectif de cette UE est de donner aux étudiants la maitrise des systèmes d’exploitations qui supportent l’exécutions de leurs programmes."/>
+      </blocs>
+    </corps>
+    <entête titre="ASE" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="COA">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="L’objectif de ce module est de apprendre la programmation avancée avec le langage de programmation C/C++."/>
+      </blocs>
+    </corps>
+    <entête titre="COA" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="PJI">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="Actuellement, les TDs se font sur Android en Java. Les étudiants ont la possibilité de faire l'évaluation en Java ou en Kotlin. D'autres technologies sont envisagées pour l'avenir (Flutter, React Native...) en fonction de l'évolution du marché."/>
+      </blocs>
+    </corps>
+    <entête titre="PJI" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+  <pages titre="TAC">
+    <corps>
+      <blocs xsi:type="siteweb:Section">
+        <blocs xsi:type="siteweb:Paragraphe" contenu="L’objectif de ce module est de apprendre la programmation avancée avec le langage de programmation C/C++."/>
+      </blocs>
+    </corps>
+    <entête titre="TAC" contenu="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD&quot; crossorigin=&quot;anonymous&quot;>        "/>
+  </pages>
+</siteweb:Site>

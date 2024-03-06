@@ -1,0 +1,225 @@
+modeltype pedagomm "strict" uses "http://www.example.org/pedagomm";
+modeltype siteweb "strict" uses "http://www.example.org/siteweb";
+
+transformation faculte2siteweb(in pedago : pedagomm, out site : siteweb);
+
+intermediate property siteweb::portail : Site;
+intermediate property siteweb::page : Page;
+
+
+main() {
+	pedago.rootObjects()[Faculté] -> map faculte2Site();
+}
+
+mapping pedagomm::Faculté::faculte2Site() : siteweb::Site {
+	site.portail := result;
+	name := self.name;
+	self -> faculte2Page();
+}
+
+mapping pedagomm::Faculté::faculte2Page() : siteweb::Page{ 
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.name;
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+	corps := object Corps{
+		blocs += object Section {
+			name := self.formations->size().toString() + " formations";
+			actions += self.formations -> map formation2Button();
+		};
+		blocs += object Section{
+			name := "Personnes";
+			var responsables:OrderedSet(pedagomm::Responsable) =  self.personnes->selectByKind(pedagomm::Responsable);
+			if (responsables->size()>0){
+				blocs += object Titre { name := "Responsables"; contenu := "Responsables"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := responsables->iterate(i : Intervenant; res : String = '' | if responsables->indexOf(i)<>responsables->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+			var intervenants:OrderedSet(pedagomm::Intervenant) =  self.personnes->selectByKind(pedagomm::Intervenant);
+			if (intervenants->size()>0){
+				blocs += object Titre { name := "Intervenants"; contenu := "Intervenants"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := intervenants->iterate(i : Intervenant; res : String = '' | if intervenants->indexOf(i)<>intervenants->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+		};
+	};
+}
+
+
+
+mapping pedagomm::Formation::formation2Button() : siteweb::Boutton {
+	self -> formation2Page();
+	contenu := self.name;
+	page := site.portail.pages->select(p:Page | p.titre = self.name)->first();
+}
+
+mapping pedagomm::Formation::formation2Page(): siteweb::Page {
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.name;
+	corps := object Corps{
+		blocs += object Section {
+			name := "boutons";
+			actions += self.mentions -> map mention2Button();
+		};
+		blocs += self.feuilleContenus -> map feuilleContenu2Titre();
+		blocs += self.feuilleContenus -> map feuilleContenu2Paragraphe();
+	};
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+}
+
+mapping pedagomm::Mention::mention2Page() : siteweb::Page{
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.container().oclAsType(Formation).name + " - " + self.name;
+	corps := object Corps{
+		
+		blocs += object Section {
+			name := "boutons";
+			actions += self.parcours -> map parcours2Action();
+		};
+		blocs += self.feuilleContenus -> map feuilleContenu2Titre();
+		blocs += self.feuilleContenus -> map feuilleContenu2Paragraphe();
+		blocs += object Section{
+			name := "Personnes";
+			var responsables:OrderedSet(pedagomm::Responsable) =  self.responsables;
+			if (responsables->size()>0){
+				blocs += object Titre { name := "Responsables"; contenu := "Responsables"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := responsables->iterate(i : Intervenant; res : String = '' | if responsables->indexOf(i)<>responsables->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+		};
+	};
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+}
+
+mapping pedagomm::Mention::mention2Button() : siteweb::Boutton{
+	self -> mention2Page();
+	contenu := self.name;
+	page := site.portail.pages->select(p:Page | p.titre = self.container().oclAsType(Formation).name + " - " +self.name)->first();
+}
+
+mapping pedagomm::Parcours::parcours2Page() : siteweb::Page{
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.container().oclAsType(Mention).name + " - " + self.name;
+	corps := object Corps{
+		blocs += object Section {
+			name := "boutons";
+			actions += self.semestres -> map semestre2Action();
+		};
+		blocs += self.feuilleContenus -> map feuilleContenu2Titre();
+		blocs += self.feuilleContenus -> map feuilleContenu2Paragraphe();
+		blocs += object Section{
+			name := "Personnes";
+			var responsables:OrderedSet(pedagomm::Responsable) =  self.responsables;
+			if (responsables->size()>0){
+				blocs += object Titre { name := "Responsables"; contenu := "Responsables"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := responsables->iterate(i : Intervenant; res : String = '' | if responsables->indexOf(i)<>responsables->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+		};
+	};
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+}
+
+mapping pedagomm::Parcours::parcours2Action() : siteweb::Boutton{
+	self -> parcours2Page();
+	contenu := self.name;
+	page := site.portail.pages->select(p:Page | p.titre = self.container().oclAsType(Mention).name + " - " +self.name)->first();
+}
+
+
+mapping pedagomm::Semestre::semestre2Page() : siteweb::Page{
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.container().oclAsType(Parcours).name + " - " + self.name;
+	corps := object Corps{
+		blocs += object Section {
+			name := "boutons";
+			actions += self.ues -> map UE2Action();
+		};
+		blocs += self.feuilleContenus -> map feuilleContenu2Titre();
+		blocs += self.feuilleContenus -> map feuilleContenu2Paragraphe();
+	};
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+}
+
+mapping pedagomm::UE::UE2Page() : siteweb::Page{
+	site.page := result;
+	site.portail.pages += result;
+	titre := self.container().oclAsType(Semestre).name + " - " + self.name;
+	corps := object Corps{
+		blocs += self.feuilleContenus -> map feuilleContenu2Titre();
+		blocs += self.feuilleContenus -> map feuilleContenu2Paragraphe();
+		blocs += object Section{
+			name := "Personnes";
+			var responsables:OrderedSet(pedagomm::Responsable) =  self.personnes->selectByKind(pedagomm::Responsable);
+			if (responsables->size()>0){
+				blocs += object Titre { name := "Responsables"; contenu := "Responsables"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := responsables->iterate(i : Intervenant; res : String = '' | if responsables->indexOf(i)<>responsables->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+			var intervenants:OrderedSet(pedagomm::Intervenant) =  self.personnes->selectByKind(pedagomm::Intervenant);
+			if (intervenants->size()>0){
+				blocs += object Titre { name := "Intervenants"; contenu := "Intervenants"; niveau := 4; };
+				blocs += object Paragraphe {
+				    contenu := intervenants->iterate(i : Intervenant; res : String = '' | if intervenants->indexOf(i)<>intervenants->size() then res + i.name + ', ' else res+ i.name endif);
+				};
+			};
+		};
+	};
+	entête := object Entête{
+		titre := self.name;
+		contenu := "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+		";
+	};
+}
+
+mapping pedagomm::Semestre::semestre2Action() : siteweb::Boutton{
+	self -> semestre2Page();
+	contenu := self.name;
+	page := site.portail.pages->select(p:Page | p.titre = self.container().oclAsType(Parcours).name + " - " +self.name)->first();
+}
+
+mapping pedagomm::UE::UE2Action() : siteweb::Boutton{
+	self -> UE2Page();
+	contenu := self.name;
+	page := site.portail.pages->select(p:Page | p.titre = self.container().oclAsType(Semestre).name + " - " +self.name)->first();
+}
+
+mapping pedagomm::FeuilleContenu::feuilleContenu2Titre() : siteweb::Titre{
+	name := self.name;
+	contenu := self.container().oclAsType(UE).name;
+	niveau := 1;
+}
+
+mapping pedagomm::FeuilleContenu::feuilleContenu2Paragraphe() : siteweb::Paragraphe{
+	name := self.name;
+	contenu := self.content;
+}

@@ -1,0 +1,27 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generateBlock.
+ */]
+[module generateBlock('http://www.example.org/simplemarkdown')]
+[import fil::idm::simplemarkdown::generator::main::generateTextElement]
+
+[**
+ * Abstract method to be defined for specific implementations of the Block type
+ */]
+[template public generateBlock(anElement: Block)]
+[/template]
+
+[template public generateBlock(anElement: Title)]
+[generateIndentation('#', anElement.level)/] [anElement.eAllContents(Text)->at(1).text/]
+[/template]
+
+[template public generateBlock(anElement: Paragraph)]
+[for (element: TextElement | anElement.elements)]
+[generateTextElement(element)/]
+
+[/for]
+[/template]
+
+[template private generateIndentation(aChar : String, aLevel : Integer)]
+[if aLevel>0][aChar/][generateIndentation(aChar, aLevel-1)/][/if]
+[/template]

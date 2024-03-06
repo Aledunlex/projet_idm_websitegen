@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:pedagomm="http://www.example.org/pedagomm" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_CHYesHCKEe2XH5M0UsjPsg" selectedViews="_GHdo8HCKEe2XH5M0UsjPsg" version="15.0.0.202209061200">
+    <semanticResources>My.pedagomm</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/fil.idm.simplemarkdown.generator/bin/fil/idm/simplemarkdown/generator/main/generate.emtl</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/fil.idm.simplemarkdown.generator/bin/fil/idm/simplemarkdown/generator/main/generateBlock.emtl</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/fil.idm.simplemarkdown.generator/bin/fil/idm/simplemarkdown/generator/main/generateTextElement.emtl</semanticResources>
+    <semanticResources>http://www.eclipse.org/acceleo/mtl/3.0/mtlnonstdlib.ecore</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/fil.idm.simplemarkdown.generator/build.properties</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.markdown.parser/build.properties</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.markdown.parser.ui/build.properties</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.simplemarkdown.mm/build.properties</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.simplemarkdown.mm/docs/mardownparserast.di</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.simplemarkdown.mm/docs/mardownparserast.notation</semanticResources>
+    <semanticResources>platform:/resource/fil.idm.markdown-master/idm.simplemarkdown.mm/docs/mardownparserast.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+    <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+    <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_GHdo8HCKEe2XH5M0UsjPsg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HneqMHCKEe2XH5M0UsjPsg" name="pedago_representation" repPath="#_Hna_0HCKEe2XH5M0UsjPsg" changeId="b3871ba3-cd9d-4341-af68-ff24bd7afbb6">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']"/>
+        <target xmi:type="pedagomm:Faculté" href="My.pedagomm#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_Hna_0HCKEe2XH5M0UsjPsg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_HnwXAHCKEe2XH5M0UsjPsg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_HnwXAXCKEe2XH5M0UsjPsg" type="Sirius" element="_Hna_0HCKEe2XH5M0UsjPsg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_HoA1sHCKEe2XH5M0UsjPsg" type="2002" element="_Hn3rwHCKEe2XH5M0UsjPsg">
+          <children xmi:type="notation:Node" xmi:id="_HoNqAHCKEe2XH5M0UsjPsg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_HoOREHCKEe2XH5M0UsjPsg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_HoO4IHCKEe2XH5M0UsjPsg" type="3008" element="_Hn5g8HCKEe2XH5M0UsjPsg">
+              <children xmi:type="notation:Node" xmi:id="_HoO4I3CKEe2XH5M0UsjPsg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_HoPfMHCKEe2XH5M0UsjPsg" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_HoQGQHCKEe2XH5M0UsjPsg" type="3008" element="_Hn7WIHCKEe2XH5M0UsjPsg">
+                  <children xmi:type="notation:Node" xmi:id="_HoQGQ3CKEe2XH5M0UsjPsg" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_HoQGRHCKEe2XH5M0UsjPsg" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_HoQtUHCKEe2XH5M0UsjPsg" type="3008" element="_Hn79MHCKEe2XH5M0UsjPsg">
+                      <children xmi:type="notation:Node" xmi:id="_HoQtU3CKEe2XH5M0UsjPsg" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_HoQtVHCKEe2XH5M0UsjPsg" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_HoRUYnCKEe2XH5M0UsjPsg" type="3008" element="_Hn8kQHCKEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_HoRUZXCKEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_HoRUZnCKEe2XH5M0UsjPsg" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_0797YHCLEe2XH5M0UsjPsg" type="3008" element="_07MfVHCLEe2XH5M0UsjPsg">
+                              <children xmi:type="notation:Node" xmi:id="_0797Y3CLEe2XH5M0UsjPsg" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_0797ZHCLEe2XH5M0UsjPsg" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_07-icHCLEe2XH5M0UsjPsg"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_07-icXCLEe2XH5M0UsjPsg"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_0797YXCLEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0797YnCLEe2XH5M0UsjPsg" x="31" y="54" width="302" height="86"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_HoRUZ3CKEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoRUaHCKEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_HoRUY3CKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoRUZHCKEe2XH5M0UsjPsg" x="19" y="54" width="386" height="182"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_HoRUaXCKEe2XH5M0UsjPsg" type="3008" element="_Hn8kQXCKEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_HoRUbHCKEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_HoR7cHCKEe2XH5M0UsjPsg" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_07-icnCLEe2XH5M0UsjPsg" type="3008" element="_07NtcHCLEe2XH5M0UsjPsg">
+                              <children xmi:type="notation:Node" xmi:id="_07-idXCLEe2XH5M0UsjPsg" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_07_JgHCLEe2XH5M0UsjPsg" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_07_JgXCLEe2XH5M0UsjPsg"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_07_JgnCLEe2XH5M0UsjPsg"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_07-ic3CLEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_07-idHCLEe2XH5M0UsjPsg" x="25" y="31" width="299" height="74"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_HoR7cXCKEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoR7cnCKEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_HoRUanCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoRUa3CKEe2XH5M0UsjPsg" x="437" y="54" width="339" height="195"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_5ODboHCLEe2XH5M0UsjPsg" type="3008" element="_5NVC43CLEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_5OECsXCLEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_5OECsnCLEe2XH5M0UsjPsg" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_5OECs3CLEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_5OECtHCLEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_5ODboXCLEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5OECsHCLEe2XH5M0UsjPsg" x="32" y="270" width="459"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_HoQtVXCKEe2XH5M0UsjPsg"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_HoQtVnCKEe2XH5M0UsjPsg"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_HoQtUXCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoQtUnCKEe2XH5M0UsjPsg" x="29" y="125" width="800" height="386"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_HoQtV3CKEe2XH5M0UsjPsg" type="3008" element="_Hn79MXCKEe2XH5M0UsjPsg">
+                      <children xmi:type="notation:Node" xmi:id="_HoQtWnCKEe2XH5M0UsjPsg" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_HoQtW3CKEe2XH5M0UsjPsg" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_HoR7c3CKEe2XH5M0UsjPsg" type="3008" element="_Hn8kQnCKEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_HoSigHCKEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_HoSigXCKEe2XH5M0UsjPsg" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_07_Jg3CLEe2XH5M0UsjPsg" type="3008" element="_07O7knCLEe2XH5M0UsjPsg">
+                              <children xmi:type="notation:Node" xmi:id="_07_wkHCLEe2XH5M0UsjPsg" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_07_wkXCLEe2XH5M0UsjPsg" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_07_wknCLEe2XH5M0UsjPsg"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_07_wk3CLEe2XH5M0UsjPsg"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_07_JhHCLEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_07_JhXCLEe2XH5M0UsjPsg" x="10" y="34" width="306" height="88"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_HoSignCKEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoSig3CKEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_HoR7dHCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoR7dXCKEe2XH5M0UsjPsg" x="39" y="119" width="337" height="180"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_5OECtXCLEe2XH5M0UsjPsg" type="3008" element="_5NVp8nCLEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_5OEpwHCLEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_5OEpwXCLEe2XH5M0UsjPsg" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_5OEpwnCLEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_5OEpw3CLEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_5OECtnCLEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5OECt3CLEe2XH5M0UsjPsg" x="25" y="34" width="351"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_HoRUYHCKEe2XH5M0UsjPsg"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_HoRUYXCKEe2XH5M0UsjPsg"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_HoQtWHCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoQtWXCKEe2XH5M0UsjPsg" x="851" y="132" width="408" height="387"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_XM0RQHCTEe2XH5M0UsjPsg" type="3008" element="_XMC1SXCTEe2XH5M0UsjPsg">
+                      <children xmi:type="notation:Node" xmi:id="_XM0RQ3CTEe2XH5M0UsjPsg" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_XM04UHCTEe2XH5M0UsjPsg" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_XM04UXCTEe2XH5M0UsjPsg"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_XM04UnCTEe2XH5M0UsjPsg"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_XM0RQXCTEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XM0RQnCTEe2XH5M0UsjPsg" x="321" y="47"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_HoQGRXCKEe2XH5M0UsjPsg"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_HoQGRnCKEe2XH5M0UsjPsg"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_HoQGQXCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoQGQnCKEe2XH5M0UsjPsg" x="32" y="31" width="1288" height="542"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_uR1JMHCMEe2XH5M0UsjPsg" type="3008" element="_uRLo-XCMEe2XH5M0UsjPsg">
+                  <children xmi:type="notation:Node" xmi:id="_uR1JM3CMEe2XH5M0UsjPsg" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_uR1JNHCMEe2XH5M0UsjPsg" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_uR1JNXCMEe2XH5M0UsjPsg"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_uR1JNnCMEe2XH5M0UsjPsg"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_uR1JMXCMEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uR1JMnCMEe2XH5M0UsjPsg" x="366" y="618" width="698"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_YUJkAJKFEe2vSplsIJijgw" type="3008" element="_YT-k4JKFEe2vSplsIJijgw">
+                  <children xmi:type="notation:Node" xmi:id="_YUTVAJKFEe2vSplsIJijgw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_YUT8EJKFEe2vSplsIJijgw" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_ZbHMEJKFEe2vSplsIJijgw" type="3008" element="_ZbC6q5KFEe2vSplsIJijgw">
+                      <children xmi:type="notation:Node" xmi:id="_ZbHzIJKFEe2vSplsIJijgw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_ZbHzIZKFEe2vSplsIJijgw" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_ZbHzIpKFEe2vSplsIJijgw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_ZbHzI5KFEe2vSplsIJijgw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ZbHMEZKFEe2vSplsIJijgw" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZbHMEpKFEe2vSplsIJijgw" x="60" y="44" width="313" height="99"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_f74KYJKFEe2vSplsIJijgw" type="3008" element="_f7yDwJKFEe2vSplsIJijgw">
+                      <children xmi:type="notation:Node" xmi:id="_f74xcJKFEe2vSplsIJijgw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_f74xcZKFEe2vSplsIJijgw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_hMSCUJKFEe2vSplsIJijgw" type="3008" element="_hML7sJKFEe2vSplsIJijgw">
+                          <children xmi:type="notation:Node" xmi:id="_hMSCU5KFEe2vSplsIJijgw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_hMSpYJKFEe2vSplsIJijgw" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_ifYB4JKFEe2vSplsIJijgw" type="3008" element="_ifU-lpKFEe2vSplsIJijgw">
+                              <children xmi:type="notation:Node" xmi:id="_ifYB45KFEe2vSplsIJijgw" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_ifYB5JKFEe2vSplsIJijgw" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_ifYB5ZKFEe2vSplsIJijgw"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_ifYB5pKFEe2vSplsIJijgw"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_ifYB4ZKFEe2vSplsIJijgw" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ifYB4pKFEe2vSplsIJijgw" x="25" y="34" width="199" height="159"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_hMSpYZKFEe2vSplsIJijgw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_hMSpYpKFEe2vSplsIJijgw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_hMSCUZKFEe2vSplsIJijgw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hMSCUpKFEe2vSplsIJijgw" x="35" y="34" width="252" height="238"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_f74xcpKFEe2vSplsIJijgw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_f74xc5KFEe2vSplsIJijgw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_f74KYZKFEe2vSplsIJijgw" fontName="Segoe UI" fontHeight="14" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f74KYpKFEe2vSplsIJijgw" x="90" y="179" width="328" height="318"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_YUT8EZKFEe2vSplsIJijgw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_YUT8EpKFEe2vSplsIJijgw"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_YUJkAZKFEe2vSplsIJijgw" fontColor="16777215" fontName="Segoe UI" fontHeight="16" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YUJkApKFEe2vSplsIJijgw" x="1353" y="39" width="488" height="534"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_HoPfMXCKEe2XH5M0UsjPsg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_HoPfMnCKEe2XH5M0UsjPsg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_HoO4IXCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoO4InCKEe2XH5M0UsjPsg" x="32" y="54" width="1874" height="734"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_HoPfM3CKEe2XH5M0UsjPsg" type="3008" element="_Hn6vEHCKEe2XH5M0UsjPsg">
+              <children xmi:type="notation:Node" xmi:id="_HoPfNnCKEe2XH5M0UsjPsg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_HoPfN3CKEe2XH5M0UsjPsg" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_uR1JN3CMEe2XH5M0UsjPsg" type="3008" element="_uRMQAHCMEe2XH5M0UsjPsg">
+                  <children xmi:type="notation:Node" xmi:id="_uR1wQHCMEe2XH5M0UsjPsg" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_uR1wQXCMEe2XH5M0UsjPsg" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_uR1wQnCMEe2XH5M0UsjPsg"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_uR1wQ3CMEe2XH5M0UsjPsg"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_uR1JOHCMEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uR1JOXCMEe2XH5M0UsjPsg" x="19" y="29" width="482"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_NSB1YHCOEe2XH5M0UsjPsg" type="3008" element="_NSAAMHCOEe2XH5M0UsjPsg">
+                  <children xmi:type="notation:Node" xmi:id="_NSB1Y3COEe2XH5M0UsjPsg" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_NSCccHCOEe2XH5M0UsjPsg" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_NcsNQHCOEe2XH5M0UsjPsg" type="3008" element="_NcjqYHCOEe2XH5M0UsjPsg">
+                      <children xmi:type="notation:Node" xmi:id="_NcsNQ3COEe2XH5M0UsjPsg" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_Ncs0UHCOEe2XH5M0UsjPsg" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_chaJoHCOEe2XH5M0UsjPsg" type="3008" element="_chXtYHCOEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_chaJo3COEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_chawsHCOEe2XH5M0UsjPsg" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_e25BAHCTEe2XH5M0UsjPsg" type="3008" element="_e20vm3CTEe2XH5M0UsjPsg">
+                              <children xmi:type="notation:Node" xmi:id="_e25oEHCTEe2XH5M0UsjPsg" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_e25oEXCTEe2XH5M0UsjPsg" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_e25oEnCTEe2XH5M0UsjPsg"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_e25oE3CTEe2XH5M0UsjPsg"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_e25BAXCTEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e25BAnCTEe2XH5M0UsjPsg" x="7" y="31"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_chawsXCOEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_chawsnCOEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_chaJoXCOEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_chaJonCOEe2XH5M0UsjPsg" x="31" y="42" width="350" height="122"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_fZHkUHCTEe2XH5M0UsjPsg" type="3008" element="_fZFvSHCTEe2XH5M0UsjPsg">
+                          <children xmi:type="notation:Node" xmi:id="_fZHkU3CTEe2XH5M0UsjPsg" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_fZILYHCTEe2XH5M0UsjPsg" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_fZILYXCTEe2XH5M0UsjPsg"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_fZILYnCTEe2XH5M0UsjPsg"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_fZHkUXCTEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fZHkUnCTEe2XH5M0UsjPsg" x="28" y="175"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_Ncs0UXCOEe2XH5M0UsjPsg"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_Ncs0UnCOEe2XH5M0UsjPsg"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_NcsNQXCOEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NcsNQnCOEe2XH5M0UsjPsg" x="31" y="30" width="422" height="290"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_f4zJ8HCTEe2XH5M0UsjPsg" type="3008" element="_f4yi4nCTEe2XH5M0UsjPsg">
+                      <children xmi:type="notation:Node" xmi:id="_f4zJ83CTEe2XH5M0UsjPsg" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_f4zJ9HCTEe2XH5M0UsjPsg" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_f4zJ9XCTEe2XH5M0UsjPsg"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_f4zJ9nCTEe2XH5M0UsjPsg"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_f4zJ8XCTEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f4zJ8nCTEe2XH5M0UsjPsg" x="67" y="355" width="322" height="92"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_NSCccXCOEe2XH5M0UsjPsg"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_NSCccnCOEe2XH5M0UsjPsg"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_NSB1YXCOEe2XH5M0UsjPsg" fontName="Noto Sans" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NSB1YnCOEe2XH5M0UsjPsg" x="19" y="113" width="482" height="494"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_HoPfOHCKEe2XH5M0UsjPsg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_HoPfOXCKEe2XH5M0UsjPsg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_HoPfNHCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoPfNXCKEe2XH5M0UsjPsg" x="1915" y="54" width="531" height="639"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_IznEIHCgEe2wuo8A03e1xA" type="3008" element="_Iza24HCgEe2wuo8A03e1xA">
+              <children xmi:type="notation:Node" xmi:id="_IznEI3CgEe2wuo8A03e1xA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_IznEJHCgEe2wuo8A03e1xA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_IznEJXCgEe2wuo8A03e1xA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_IznEJnCgEe2wuo8A03e1xA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IznEIXCgEe2wuo8A03e1xA" fontName="Noto Sans" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IznEInCgEe2wuo8A03e1xA" x="1020" y="824"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HoOREXCKEe2XH5M0UsjPsg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoOREnCKEe2XH5M0UsjPsg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_HoA1sXCKEe2XH5M0UsjPsg" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoA1snCKEe2XH5M0UsjPsg" x="-10860" y="-1320" width="2487" height="915"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vZUM8JJ-Ee2N7ecBWMZCCw" type="2002" element="_vZKb8JJ-Ee2N7ecBWMZCCw">
+          <children xmi:type="notation:Node" xmi:id="_vZlSsJJ-Ee2N7ecBWMZCCw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vZmg0JJ-Ee2N7ecBWMZCCw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_xun3cJJ-Ee2N7ecBWMZCCw" type="3008" element="_xui-8JJ-Ee2N7ecBWMZCCw">
+              <children xmi:type="notation:Node" xmi:id="_xuoegJJ-Ee2N7ecBWMZCCw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_xuoegZJ-Ee2N7ecBWMZCCw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_6lz6kJJ-Ee2N7ecBWMZCCw" type="3008" element="_6lwQMJJ-Ee2N7ecBWMZCCw">
+                  <children xmi:type="notation:Node" xmi:id="_6l0hoJJ-Ee2N7ecBWMZCCw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_6l0hoZJ-Ee2N7ecBWMZCCw" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_D-6X8JJ_Ee2N7ecBWMZCCw" type="3008" element="_D-4i1JJ_Ee2N7ecBWMZCCw">
+                      <children xmi:type="notation:Node" xmi:id="_D-6X85J_Ee2N7ecBWMZCCw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_D-6X9JJ_Ee2N7ecBWMZCCw" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_D-6X9ZJ_Ee2N7ecBWMZCCw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_D-6X9pJ_Ee2N7ecBWMZCCw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_D-6X8ZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D-6X8pJ_Ee2N7ecBWMZCCw" x="155" y="39" width="418"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Ht-DoJJ_Ee2N7ecBWMZCCw" type="3008" element="_Ht7AUJJ_Ee2N7ecBWMZCCw">
+                      <children xmi:type="notation:Node" xmi:id="_Ht-qsJJ_Ee2N7ecBWMZCCw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_Ht-qsZJ_Ee2N7ecBWMZCCw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_Ihw4EJJ_Ee2N7ecBWMZCCw" type="3008" element="_IhtNsJJ_Ee2N7ecBWMZCCw">
+                          <children xmi:type="notation:Node" xmi:id="_IhxfIJJ_Ee2N7ecBWMZCCw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_IhxfIZJ_Ee2N7ecBWMZCCw" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_OwkjsJJ_Ee2N7ecBWMZCCw" type="3008" element="_OwjVnJJ_Ee2N7ecBWMZCCw">
+                              <children xmi:type="notation:Node" xmi:id="_OwlKwJJ_Ee2N7ecBWMZCCw" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_OwlKwZJ_Ee2N7ecBWMZCCw" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_OwlKwpJ_Ee2N7ecBWMZCCw"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_OwlKw5J_Ee2N7ecBWMZCCw"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_OwkjsZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OwkjspJ_Ee2N7ecBWMZCCw" x="15" y="29" width="259"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_IhxfIpJ_Ee2N7ecBWMZCCw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_IhxfI5J_Ee2N7ecBWMZCCw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ihw4EZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ihw4EpJ_Ee2N7ecBWMZCCw" x="5" y="54" width="338" height="158"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_VoZ-MJJ_Ee2N7ecBWMZCCw" type="3008" element="_VoW64JJ_Ee2N7ecBWMZCCw">
+                          <children xmi:type="notation:Node" xmi:id="_VoZ-M5J_Ee2N7ecBWMZCCw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_VoZ-NJJ_Ee2N7ecBWMZCCw" type="7002">
+                            <children xmi:type="notation:Node" xmi:id="_YPYngJJ_Ee2N7ecBWMZCCw" type="3008" element="_YPXZbZJ_Ee2N7ecBWMZCCw">
+                              <children xmi:type="notation:Node" xmi:id="_YPYng5J_Ee2N7ecBWMZCCw" type="5005"/>
+                              <children xmi:type="notation:Node" xmi:id="_YPZOkJJ_Ee2N7ecBWMZCCw" type="7002">
+                                <styles xmi:type="notation:SortingStyle" xmi:id="_YPZOkZJ_Ee2N7ecBWMZCCw"/>
+                                <styles xmi:type="notation:FilteringStyle" xmi:id="_YPZOkpJ_Ee2N7ecBWMZCCw"/>
+                              </children>
+                              <styles xmi:type="notation:ShapeStyle" xmi:id="_YPYngZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YPYngpJ_Ee2N7ecBWMZCCw" x="25" y="44" width="172"/>
+                            </children>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_VoZ-NZJ_Ee2N7ecBWMZCCw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_VoZ-NpJ_Ee2N7ecBWMZCCw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_VoZ-MZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VoZ-MpJ_Ee2N7ecBWMZCCw" x="365" y="49" width="242" height="162"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_Ht-qspJ_Ee2N7ecBWMZCCw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_Ht-qs5J_Ee2N7ecBWMZCCw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_Ht-DoZJ_Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="14" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ht-DopJ_Ee2N7ecBWMZCCw" x="25" y="129" width="642" height="498"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_6l0hopJ-Ee2N7ecBWMZCCw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_6l0ho5J-Ee2N7ecBWMZCCw"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_6lz6kZJ-Ee2N7ecBWMZCCw" fontColor="16777215" fontName="Segoe UI" fontHeight="16" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lz6kpJ-Ee2N7ecBWMZCCw" x="15" y="134" width="698" height="642"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_85J2MJJ-Ee2N7ecBWMZCCw" type="3008" element="_85IBBpJ-Ee2N7ecBWMZCCw">
+                  <children xmi:type="notation:Node" xmi:id="_85J2M5J-Ee2N7ecBWMZCCw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_85J2NJJ-Ee2N7ecBWMZCCw" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_85J2NZJ-Ee2N7ecBWMZCCw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_85J2NpJ-Ee2N7ecBWMZCCw"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_85J2MZJ-Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85J2MpJ-Ee2N7ecBWMZCCw" x="65" y="39" width="613"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_xuoegpJ-Ee2N7ecBWMZCCw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_xuoeg5J-Ee2N7ecBWMZCCw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xun3cZJ-Ee2N7ecBWMZCCw" fontColor="16777215" fontName="Segoe UI" fontHeight="18" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xun3cpJ-Ee2N7ecBWMZCCw" x="40" y="39" width="765" height="812"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2spQoJJ-Ee2N7ecBWMZCCw" type="3008" element="_2sk_MJJ-Ee2N7ecBWMZCCw">
+              <children xmi:type="notation:Node" xmi:id="_2spQo5J-Ee2N7ecBWMZCCw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_2sp3sJJ-Ee2N7ecBWMZCCw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_2sp3sZJ-Ee2N7ecBWMZCCw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_2sp3spJ-Ee2N7ecBWMZCCw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2spQoZJ-Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2spQopJ-Ee2N7ecBWMZCCw" x="801" y="24" width="373" height="48"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vZmg0ZJ-Ee2N7ecBWMZCCw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vZmg0pJ-Ee2N7ecBWMZCCw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vZUM8ZJ-Ee2N7ecBWMZCCw" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vZUM8pJ-Ee2N7ecBWMZCCw" x="-8250" y="-1295" width="1193" height="898"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_HnwXAnCKEe2XH5M0UsjPsg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Hn9LUHCKEe2XH5M0UsjPsg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Hn9LUXCKEe2XH5M0UsjPsg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn3rwHCKEe2XH5M0UsjPsg" name="Formations en Informatique de Lille">
+      <target xmi:type="pedagomm:Formation" href="My.pedagomm#//@formations.0"/>
+      <semanticElements xmi:type="pedagomm:Formation" href="My.pedagomm#//@formations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NzGe8HCKEe2XH5M0UsjPsg" labelSize="20" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn5g8HCKEe2XH5M0UsjPsg" name="Master Info">
+        <target xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.0/@mentions.0"/>
+        <semanticElements xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.0/@mentions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_RdyA8HCKEe2XH5M0UsjPsg" labelSize="18" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="77,137,20" foregroundColor="77,137,20">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn7WIHCKEe2XH5M0UsjPsg" name="Génie Logiciel">
+          <target xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0"/>
+          <semanticElements xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rdz2IHCKEe2XH5M0UsjPsg" labelSize="16" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="39,76,114" foregroundColor="39,76,114">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn79MHCKEe2XH5M0UsjPsg" name="Semestre 1">
+            <target xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0"/>
+            <semanticElements xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rd0dMHCKEe2XH5M0UsjPsg" labelSize="14" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn8kQHCKEe2XH5M0UsjPsg" name="ACT">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.0"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rd2SYHCKEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_07MfVHCLEe2XH5M0UsjPsg" name="ACT c'est comme assister à son propre enterrement pendant 4 mois, sauf que personne n'est triste.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_07MfVXCLEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn8kQXCKEe2XH5M0UsjPsg" name="IDM">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.1"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rd25cXCKEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_07NtcHCLEe2XH5M0UsjPsg" name="IDM c'est l'art d'utiliser les pires outils pour faire le meilleur truc.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.1/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@ues.1/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_07NtcXCLEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5NVC43CLEe2XH5M0UsjPsg" name="Le semestre 1 est le plus important des semestres">
+              <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@feuilleContenus.0"/>
+              <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.0/@feuilleContenus.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5NVC5HCLEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn79MXCKEe2XH5M0UsjPsg" name="Semestre 2">
+            <target xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1"/>
+            <semanticElements xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rd1EQXCKEe2XH5M0UsjPsg" labelSize="14" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn8kQnCKEe2XH5M0UsjPsg" name="COMPIL">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@ues.0"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@ues.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Rd4HkHCKEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_07O7knCLEe2XH5M0UsjPsg" name="L'UE de Compilation va d'abord vous faire faire du Python, et en deux semaines vous allez vous taper de l'Assembleur.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@ues.0/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@ues.0/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_07O7k3CLEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5NVp8nCLEe2XH5M0UsjPsg" name="Le semestre 2 est le plus important des semestres">
+              <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@feuilleContenus.0"/>
+              <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@semestres.1/@feuilleContenus.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5NVp83CLEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XMC1SXCTEe2XH5M0UsjPsg" name="Le parcours Génie Logiciel du Master Info, c'est le BEST parcours, et les autres sont moins biens (nuls)">
+            <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@feuilleContenus.0"/>
+            <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.0/@feuilleContenus.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XMC1SnCTEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_uRLo-XCMEe2XH5M0UsjPsg" name="Le Master Informatique du FIL est probablement le meilleur Master de tout l'univers académique français">
+          <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@feuilleContenus.0"/>
+          <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@feuilleContenus.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_uRLo-nCMEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_YT-k4JKFEe2vSplsIJijgw" name="E-Services">
+          <target xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1"/>
+          <semanticElements xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YT_L8JKFEe2vSplsIJijgw" labelSize="16" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="39,76,114" foregroundColor="39,76,114">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZbC6q5KFEe2vSplsIJijgw" name="Le parcours E-Services est destiné aux moins bons élèves que GL, mais c'est tabou.">
+            <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@feuilleContenus.0"/>
+            <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@feuilleContenus.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZbDhsJKFEe2vSplsIJijgw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f7yDwJKFEe2vSplsIJijgw" name="Semestre unique">
+            <target xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0"/>
+            <semanticElements xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f7yDwZKFEe2vSplsIJijgw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hML7sJKFEe2vSplsIJijgw" name="TAC">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0/@ues.0"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0/@ues.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hMMiwJKFEe2vSplsIJijgw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ifU-lpKFEe2vSplsIJijgw" name="Technologies Applications Connectées, ou quelque chose de ce style, en théorie c'est pour tout appareil connecté à internet, mais en pratique c'est juste pour faire une appli Android Studio.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.0/@parcours.1/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ifU-l5KFEe2vSplsIJijgw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Hn6vEHCKEe2XH5M0UsjPsg" name="Master MIAGE">
+        <target xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.0/@mentions.1"/>
+        <semanticElements xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.0/@mentions.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_RdyoAXCKEe2XH5M0UsjPsg" labelSize="18" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="77,137,20" foregroundColor="77,137,20">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_uRMQAHCMEe2XH5M0UsjPsg" name="On va pas décrire trop ce parcours, mais il est sûrement pas mal non plus">
+          <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@feuilleContenus.0"/>
+          <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@feuilleContenus.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_uRMQAXCMEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_NSAAMHCOEe2XH5M0UsjPsg" name="Parcours MIAGE">
+          <target xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0"/>
+          <semanticElements xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NSAAMXCOEe2XH5M0UsjPsg" labelSize="16" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="39,76,114" foregroundColor="39,76,114">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_NcjqYHCOEe2XH5M0UsjPsg" name="Semestre 1">
+            <target xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0"/>
+            <semanticElements xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_NcjqYXCOEe2XH5M0UsjPsg" labelSize="14" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_chXtYHCOEe2XH5M0UsjPsg" name="Une UE">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@ues.0"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@ues.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_chXtYXCOEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_e20vm3CTEe2XH5M0UsjPsg" name="Une description.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_e21WoHCTEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_fZFvSHCTEe2XH5M0UsjPsg" name="Semestre unique pour parcours quelconque.">
+              <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@feuilleContenus.0"/>
+              <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@semestres.0/@feuilleContenus.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_fZGWMHCTEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f4yi4nCTEe2XH5M0UsjPsg" name="Les MIAGE ils restent entre eux, rien à dire honnêtement">
+            <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@feuilleContenus.0"/>
+            <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@mentions.1/@parcours.0/@feuilleContenus.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f4yi43CTEe2XH5M0UsjPsg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Iza24HCgEe2wuo8A03e1xA" name="La Formation en informatique de Lille est la formation la plus prestigieuse à travers la France.">
+        <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@feuilleContenus.0"/>
+        <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.0/@feuilleContenus.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Izbd8HCgEe2wuo8A03e1xA" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vZKb8JJ-Ee2N7ecBWMZCCw" name="Physique">
+      <target xmi:type="pedagomm:Formation" href="My.pedagomm#//@formations.1"/>
+      <semanticElements xmi:type="pedagomm:Formation" href="My.pedagomm#//@formations.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_vZLDAJJ-Ee2N7ecBWMZCCw" labelSize="20" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xui-8JJ-Ee2N7ecBWMZCCw" name="Licence de Physique-chimie">
+        <target xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.1/@mentions.0"/>
+        <semanticElements xmi:type="pedagomm:Mention" href="My.pedagomm#//@formations.1/@mentions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_xui-8ZJ-Ee2N7ecBWMZCCw" labelSize="18" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="77,137,20" foregroundColor="77,137,20">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6lwQMJJ-Ee2N7ecBWMZCCw" name="Tronc commun">
+          <target xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0"/>
+          <semanticElements xmi:type="pedagomm:Parcours" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6lwQMZJ-Ee2N7ecBWMZCCw" labelSize="16" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="39,76,114" foregroundColor="39,76,114">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_D-4i1JJ_Ee2N7ecBWMZCCw" name="En licence, tout le monde verra les mêmes trucs.">
+            <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@feuilleContenus.0"/>
+            <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@feuilleContenus.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_D-4i1ZJ_Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Ht7AUJJ_Ee2N7ecBWMZCCw" name="Semestre unique">
+            <target xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0"/>
+            <semanticElements xmi:type="pedagomm:Semestre" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Ht7AUZJ_Ee2N7ecBWMZCCw" labelSize="14" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_IhtNsJJ_Ee2N7ecBWMZCCw" name="UE1">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.0"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_IhtNsZJ_Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_OwjVnJJ_Ee2N7ecBWMZCCw" name="L'UE1 fait pleurer du sang à tout le monde">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.0/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_OwjVnZJ_Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_VoW64JJ_Ee2N7ecBWMZCCw" name="UE2">
+              <target xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.1"/>
+              <semanticElements xmi:type="pedagomm:UE" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VoW64ZJ_Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="246,139,139" foregroundColor="246,139,139">
+                <labelFormat>bold</labelFormat>
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']"/>
+              <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_YPXZbZJ_Ee2N7ecBWMZCCw" name="L'UE2 est la seule UE que les étudiants apprécient cette année.">
+                <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.1/@feuilleContenus.0"/>
+                <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@parcours.0/@semestres.0/@ues.1/@feuilleContenus.0"/>
+                <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+                <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+                <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+                <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YPXZbpJ_Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                  <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+                </ownedStyle>
+                <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='ParcoursContainer']/@subContainerMappings[name='SemestreContainer']/@subContainerMappings[name='UEContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_85IBBpJ-Ee2N7ecBWMZCCw" name="La licence de Physique-Chimie est vouée à former de futurs salariés en laboratoires de drogues">
+          <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@feuilleContenus.0"/>
+          <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@mentions.0/@feuilleContenus.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_85IBB5J-Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='MentionContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_2sk_MJJ-Ee2N7ecBWMZCCw" name="La physique, c'est fantastique">
+        <target xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@feuilleContenus.0"/>
+        <semanticElements xmi:type="pedagomm:FeuilleContenu" href="My.pedagomm#//@formations.1/@feuilleContenus.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2sk_MZJ-Ee2N7ecBWMZCCw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='FeuilleContenuContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer/@containerMappings[name='FormationContainer']/@subContainerMappings[name='FeuilleContenuContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Hnc1AHCKEe2XH5M0UsjPsg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/pedago.design/description/pedago.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='FaculteContainer']/@defaultLayer"/>
+    <target xmi:type="pedagomm:Faculté" href="My.pedagomm#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

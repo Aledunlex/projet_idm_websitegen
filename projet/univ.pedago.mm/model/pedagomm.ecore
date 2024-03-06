@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="pedagomm" nsURI="http://www.example.org/pedagomm" nsPrefix="pedagomm">
+  <eClassifiers xsi:type="ecore:EClass" name="Mention">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parcours" upperBound="-1"
+        eType="#//Parcours" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsables" upperBound="-1"
+        eType="#//Responsable"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feuilleContenus" upperBound="-1"
+        eType="#//FeuilleContenu" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Intervenant" eSuperTypes="#//Personne"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Parcours">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="semestres" upperBound="-1"
+        eType="#//Semestre" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsables" upperBound="-1"
+        eType="#//Responsable"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feuilleContenus" upperBound="-1"
+        eType="#//FeuilleContenu" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Responsable" eSuperTypes="#//Personne"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Personne" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Semestre">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ues" upperBound="-1" eType="#//UE"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feuilleContenus" upperBound="-1"
+        eType="#//FeuilleContenu" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Formation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mentions" lowerBound="1"
+        upperBound="-1" eType="#//Mention" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feuilleContenus" upperBound="-1"
+        eType="#//FeuilleContenu" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Faculté">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="formations" lowerBound="1"
+        upperBound="-1" eType="#//Formation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personnes" lowerBound="1"
+        upperBound="-1" eType="#//Personne" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FeuilleFormation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contenu" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UE">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personnes" upperBound="-1"
+        eType="#//Personne"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="feuilleContenus" upperBound="-1"
+        eType="#//FeuilleContenu" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FeuilleContenu">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

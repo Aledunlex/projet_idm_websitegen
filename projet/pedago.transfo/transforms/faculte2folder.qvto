@@ -1,0 +1,126 @@
+modeltype pedagomm "strict" uses "http://www.example.org/pedagomm";
+modeltype simplemarkdown "strict" uses 'http://www.example.org/simplemarkdown';
+
+transformation faculte2folder(in pedago : pedagomm, out markdown : simplemarkdown);
+
+intermediate property simplemarkdown::doc : Document;
+
+main() {
+	pedago.rootObjects()[Faculté] -> map faculte2Folder();
+}
+
+mapping pedagomm::Faculté::faculte2Folder() : simplemarkdown::Folder {
+	name := "My_" + self.name;
+	documents += self -> faculte2Document();
+}
+
+mapping pedagomm::Faculté::faculte2Document() : simplemarkdown::Document {
+	markdown.doc :=  result;
+	name := self.name;
+	self.formations -> map formation2Title();
+}
+
+
+mapping pedagomm::Formation::formation2Title(){
+	markdown.doc.contents += object Title {
+		level := 1; elements += self -> map nameTitle2Text();
+	};
+	
+	self.mentions -> mention2Title();
+}
+
+mapping pedagomm::Formation::nameTitle2Text() : simplemarkdown::Text {
+	text := self.name;
+}
+
+
+mapping pedagomm::Mention::mention2Title() {
+	markdown.doc.contents += object Title {
+		level := 2; elements += self -> map nameTitle2Text();
+	};
+	markdown.doc.contents += self.feuilleContenus -> map feuille2Paragraph();
+	self.parcours -> map parcours2Title();
+}
+
+mapping pedagomm::FeuilleContenu::feuille2Paragraph() : simplemarkdown::Paragraph {
+	elements += object Text {
+		text := self.content;
+	};
+}
+
+mapping pedagomm::Semestre::semestre2Paragraph() : simplemarkdown::Paragraph {
+	elements += self.feuilleContenus -> map feuille2Text();
+}
+
+mapping pedagomm::UE::ue2Paragraph() : simplemarkdown::Paragraph {
+	elements += self.feuilleContenus -> map feuille2Text();
+	if (self.personnes[Intervenant]->size()>0){
+	
+	 elements+= object StrongEmphasis{text := "Intervenants :";};
+	 
+	 elements += object Text{
+		 var textText := ''; 
+		 self.personnes[Intervenant] -> forEach( personne ) {
+		 	textText := textText.+("- " + personne.name);
+		 };
+		 text := textText;
+	 };
+	};
+	if (self.personnes[Responsable]->size()>0){
+	
+	 elements+= object StrongEmphasis{text := "Responsables :";};
+	 
+	 elements+= object Text{
+		 var textText := '';
+		 self.personnes[Responsable] -> forEach( personne ) {
+		 	textText := textText.+("- " + personne.name);
+		 };
+		 text := textText;
+	 };
+	};
+}
+
+
+mapping pedagomm::FeuilleContenu::feuille2Text() : simplemarkdown::Text {
+	text := self.content;
+}
+
+mapping pedagomm::Mention::nameTitle2Text() : simplemarkdown::Text {
+	text := self.name;
+}
+
+mapping pedagomm::Parcours::parcours2Title(){
+	markdown.doc.contents += object Title {
+		level := 3; elements += self -> map nameTitle2Text();
+	};
+	markdown.doc.contents+= self.feuilleContenus -> map feuille2Paragraph();
+	self.semestres -> map semestre2Title();	
+}
+
+mapping pedagomm::Parcours::nameTitle2Text() : simplemarkdown::Text {
+	text := self.name;
+}
+
+mapping pedagomm::Semestre::semestre2Title(){
+	markdown.doc.contents += object Title {
+		level := 4; elements += self -> map nameTitle2Text();
+	};
+	markdown.doc.contents+= self -> map semestre2Paragraph();
+	self.ues -> map ue2Title();
+}
+
+mapping pedagomm::Semestre::nameTitle2Text() : simplemarkdown::Text {
+	text := self.name;
+}
+
+mapping pedagomm::UE::ue2Title(){
+	markdown.doc.contents += object Title {
+		level := 5; elements += self -> map nameTitle2Text();
+	};
+	markdown.doc.contents+= self -> map ue2Paragraph();
+	self -> map nameTitle2Text();
+}
+
+mapping pedagomm::UE::nameTitle2Text() : simplemarkdown::Text {
+	text := self.name;
+}

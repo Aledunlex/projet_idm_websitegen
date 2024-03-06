@@ -1,0 +1,70 @@
+[comment encoding = UTF-8 /]
+[**
+ * Génère un fichier html, en spécifiant les balises <html>, d'entête et de corps,
+ * puis génère chaque contenu de la page selon le module generateBloc.
+ */]
+[module generatePage('http://www.example.org/siteweb')]
+[import pedago::tosite::generator::main::generateBloc]
+
+[template public generatePage(aPage: Page, siteName: String)]
+[file (siteName + '/' + aPage.titre + '.html', false, 'UTF-8')]
+<!doctype html>
+<html lang="fr">
+	[generateEntete(aPage.entête)/]
+	[generateCorps(aPage.corps, aPage.eContainer(Site).pages->at(1), aPage)/]
+</html>
+[/file]
+[/template]
+
+[template public generateEntete(entete: Entête)]
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+	<title>[entete.titre/]</title>
+	[entete.contenu/]        
+	
+</head>
+[/template]
+
+[template public generateCorps(corps: Corps, pageIndex: Page, current: Page)]
+<body style="background-color: #f2f2f2;">
+
+	[comment Generating a default navbar/] 
+	<div class="container my-container" style="padding: 0;">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="navbar" id="navbarNav">
+				[generateNavBar(pageIndex, current)/]
+			</div>
+			<a class="navbar-brand">[current.titre/]</a>
+		</nav>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-md-8">
+				[for (element: Bloc | corps.blocs)]
+				[generateBloc(element)/]
+				
+				[/for]
+			</div>
+		</div>
+	</div>
+</body>
+[/template]
+
+[template public generateNavBar(pageIndex: Page, current: Page) ? (current <> pageIndex)]
+<ul class="navbar-nav">
+	<li class="nav-item active">
+		<a class="nav-link" href="[pageIndex.titre/].html">Accueil</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#" onclick="history.back()">Précédent</a>
+	</li>
+</ul>
+[/template]
+
+[template public generateNavBar(pageIndex: Page, current: Page) ? (current = pageIndex)]
+<ul class="navbar-nav">
+</ul>
+[/template]

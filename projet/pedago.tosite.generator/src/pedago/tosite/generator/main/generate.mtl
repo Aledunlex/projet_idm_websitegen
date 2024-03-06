@@ -1,0 +1,20 @@
+[comment encoding = UTF-8 /]
+[**
+ * Le projet n'implémente pas tous les cas de figures créables dans un modèle avec le
+ * métamodèle siteweb. Il implémente plutôt le code nécessaire à la création d'un site
+ * html tel qu'il est décrit basiquement dans la présentation faite en cours.
+ */]
+[module generate('http://www.example.org/siteweb')]
+[import pedago::tosite::generator::main::generatePage]
+
+[**
+ * Root template for this project.
+ * Will call generatePage on every page in the Site object.
+ * @param aSite for which all pages must be generated with their content
+ */]
+[template public generateSite(aSite : Site)]
+[comment @main génération du fichier html/]
+[for (aPage: Page | aSite.pages)]
+[generatePage(aPage, aSite.name)/]
+[/for]
+[/template]
